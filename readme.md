@@ -13,3 +13,23 @@
 - display_button is a sketch
 
 I have just realized that this project's name should be L.C.D not L.E.D as the source of the name is from the screen type I'm playing with. Whatever.
+
+
+## screen connections chart for ESP wroom-32:
+
+|screen pin|ESP32 port|
+|:-----------|-----:|
+|VCC|3.3V|
+|GND|GND|
+|CS|GPIO 5|
+|RESET|GPIO 22|
+|DC|GPIO 21|
+|SDI(MOSI)|GPIO 23|
+|SCK|GPIO 18|
+|LED|3.3V|
+|SDO (MISO)|-|
+|T_CLK|GPIO 25|
+|T_CS|GPIO 26|
+|T_DIN|GPIO 27|
+|T_DO|GPIO 4|
+|T_IRQ|GPIOx 34|
